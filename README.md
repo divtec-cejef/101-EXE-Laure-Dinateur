@@ -23,6 +23,8 @@ Vous trouverez tous les fichiers utiles à la réalisation du site dans le dossi
 Liste des fichiers :
 * `images/` ce dossier contient les réalisations, photos et logos du site.
 * `maquettes/` les maquettes du site.
+* `base.html` fichier HTML de base à copier pour créer vos pages 
+  HTML. 
 * `lauredi-contenus.txt` les textes du site.
 * `palette.pdf`, `palette.png`, `palette.url` la palette des couleurs du site
   dans différents formats.
