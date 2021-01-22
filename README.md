@@ -1,9 +1,5 @@
 # Exercice site Laure Dinateur version mobile
 
-## TODO
-* Tri par niveau de formation 1-2-3
-* Afficher des métiers pas de formations
-
 ## Objectifs
 
 * Créer le site internet de la graphiste *Laure Dinateu*r en se basant sur les
