@@ -1,5 +1,9 @@
 # Exercice site Laure Dinateur version mobile
 
+## TODO
+* Tri par niveau de formation 1-2-3
+* Afficher des métiers pas de formations
+
 ## Objectifs
 
 * Créer le site internet de la graphiste *Laure Dinateu*r en se basant sur les
@@ -115,5 +119,26 @@ maquettes, images, ....
 ### Instructions du designer
 * Utiliser les bordures arrondies CSS `border-radius` pour donner la forme de
   cercle à l'image.
+
+## Travail #2 - Réaliser la page _Me contacter_
+
+La page de contact _Me contacter_ `contact.html` contient :
+* un titre principal
+* deux sections`<section>` :
+  *  section `infos` :
+     * un titre secondaire
+     * deux paragraphes
+  * section `contact`
+     * liste de contacts `<ul>`
+  
+
+### Maquette
+![Maquette de la page Me contacter](_sources/maquettes/me-contacter.png)
+
+### Instructions du designer
+
+* Utiliser les images d'arrière-plan pour placer les icônes de la liste
+  * Article explicant comment procéder : 
+    https://openweb.eu.org/articles/puces_images 
 
 
