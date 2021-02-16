@@ -1,0 +1,84 @@
+/*Pour les Ã©crans >= 480px */
+@media only screen and (min-width: 480px) {
+
+    /*Prends en compte la taille des Ã©lÃ©ments flotants (float)*/
+    /*
+    main {
+        overflow: auto;
+    }
+
+    /*Passage sur 3 cols*/
+    .gallery li {
+        width: calc(100%/3 - 5%);
+    }
+
+    .col1,
+    .col2 {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+
+    }
+
+    .col2 {
+        width: 40%;
+        margin-left: 10%;
+    }
+
+    /* Habillage flottant pour l'image de la page infos*/
+    .profile-photo {
+        float: left; /* pas oublier overflow: auto au parent */
+        margin: 0 5% 200px 0;
+    }
+} /* min-width: 480px */
+
+/* Pour les Ã©crans >= 660px
+    - logo Ã  gauche et menu Ã  droite
+    - bordure de 5px #2ec4b6 en bas de l'entÃªte
+    - titre 1 2.5x la taille du texte
+    - titre 2 marge en bas de 20px
+    - navigation marge droite de 5% et text 1.125x
+*/
+@media screen and (min-width: 660px) {
+
+    header {
+        border-bottom: 5px solid #2ec4b6;
+    }
+
+    header .logo {
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+        width: 42%;
+        margin-left: 5%;
+    }
+
+    header .logo h1 {
+        font-size: 2.5rem;
+    }
+
+    header .logo h2 {
+        margin-bottom: 20px;
+    }
+
+    header nav {
+        display: inline-block;
+        vertical-align: top;
+        text-align: right;
+        width: 48%;
+        margin-right: 5%;
+        font-size: 1.125rem;
+    }
+}
+
+/* Pour les Ã©crans >= 910px
+    - Afficher le lien Acceuil
+*/
+@media screen and (min-width: 910px) {
+
+    /* affiche le lien accueil */
+    header nav a[href="index.html"] {
+        display: inline;
+    }
+}
+
