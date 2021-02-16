@@ -6,6 +6,12 @@
         width: calc(100%/3 - 5%);
     }
 
+    /* Habillage flottant pour l'image de la page infos*/
+    .page-infos .profile-photo {
+        float: left; /* pas oublier overflow: auto au parent */
+        margin: 0 5% 20px 0;
+    }
+
     .page-contact .col1,
     .page-contact .col2 {
         display: inline-block;
@@ -17,12 +23,6 @@
     .page-contact .col2 {
         width: 40%;
         margin-left: 10%;
-    }
-
-    /* Habillage flottant pour l'image de la page infos*/
-    .page-infos .profile-photo {
-        float: left; /* pas oublier overflow: auto au parent */
-        margin: 0 5% 20px 0;
     }
 } /* min-width: 480px */
 
