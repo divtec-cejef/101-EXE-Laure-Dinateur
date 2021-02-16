@@ -8,7 +8,7 @@
     }
 
     /*Passage sur 3 cols*/
-    .gallery li {
+    .realisations li {
         width: calc(100%/3 - 5%);
     }
 
