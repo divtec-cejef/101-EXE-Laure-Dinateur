@@ -124,8 +124,8 @@ La page de contact _Me contacter_ `contact.html` contient :
 * un titre principal
 * deux sections`<section>` :
   *  section `infos` :
-    * un titre secondaire
-    * deux paragraphes
+  * un titre secondaire
+  * deux paragraphes
   * section `contact`
     * liste de contacts `<ul>`
 
@@ -166,9 +166,56 @@ Les contenus de la page d'accueil sont :
 * Aligner verticalement les éléments `<li>` par le haut `vertical-align:top;`
 * La légende des images à une marge intérieure de `10px` et une taille de
   texte de `1rem`.
-* Le débordement `overflow` du texte de la légende doit être masqué. 
+* Le débordement `overflow` du texte de la légende doit être masqué.
 
-  
+## Travail #4 - Rendre le site "Responsive"
+![Maquette de la page Accueil](_sources/maquettes/responsive.jpg)
 
 
+Créer un feuille de style `responsive.css` dans le dosser `css/` et utiliser
+les media queries pour appliquer les règles suivantes aux différentes
+tailles d'écrans.
 
+### Écrans >= 480px
+
+* Page d'accueil
+  * Afficher la galerie sur trois colonnes.
+  * **Astuce :** utiliser la fonction CSS `calc()`
+    https://developer.mozilla.org/fr/docs/Web/CSS/calc()
+* Page informations
+  * Faire flotter la photo de Laure Dinateur à gauche du titre.
+  *  **Astuce :** Utiliser la propriété CSS `float`
+     https://developer.mozilla.org/fr/docs/Web/CSS/float
+* Page de contact
+  * Afficher les deux sections sur deux colonnes
+    * A gauche : Informations générales
+      * Largeur: `50%`
+    * A droite:  Informations de contact
+      * Largeur: `40%`
+      * Marge extérieure gauche: `10%`
+
+### Écrans >= 660px
+
+* Entête du site
+  * Ajouter un bordure bleue `#2ec4b6` de `5px` d'épaisseur en bas de l'entête
+  * Afficher le logo à gauche et le menu à droite
+    * Logo
+      * largeur : `42%`
+      * marge extérieure gauche : `5%`
+      * Alignement du texte à gauche
+      * "Laure Dinateur" taille du texte de `2.5rem`
+      * "Graphiste" marge extérieur en bas de `20px`
+    * Menu
+      * Largeur : `48%`
+      * marge extérieure droite : `5%`
+      * Taille du texte : `1.125rem`
+
+### Écrans >= 910px
+
+* Entête du site
+  * Afficher le lien vers la page d'acceuil dans le menu
+* Contenu principal et pied de page
+  * Largeur maximale `910px` moin `5%` de marge extérieure
+  * **Astuce :** utiliser la fonction CSS `calc()`
+    https://developer.mozilla.org/fr/docs/Web/CSS/calc()
+    
