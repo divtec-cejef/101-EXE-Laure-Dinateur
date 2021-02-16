@@ -169,6 +169,8 @@ Les contenus de la page d'accueil sont :
 * Le débordement `overflow` du texte de la légende doit être masqué. 
 
 ## Travail #4 - Rendre le site "Responsive"
+![Maquette de la page Accueil](_sources/maquettes/responsive.jpg)
+
 
 Créer un feuille de style `responsive.css` dans le dosser `css/` et utiliser 
 les media queries pour appliquer les règles suivantes aux différentes 
