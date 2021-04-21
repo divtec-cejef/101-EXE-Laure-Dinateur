@@ -112,7 +112,7 @@ maquettes, images, ....
 
 
 ### Maquette
-![Maquette de la page Qui suis-je](_sources/maquettes/présentation.png)
+![Maquette de la page Qui suis-je](_sources/maquettes/presentation.png)
 
 ### Instructions du designer
 * Utiliser les bordures arrondies CSS `border-radius` pour donner la forme de
