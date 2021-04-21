@@ -3,7 +3,7 @@
 
     /*Passage sur 3 cols*/
     .page-index .realisations li {
-        width: calc(100%/3 - 5%);
+        flex-basis: calc(100%/3);
     }
 
     /* Habillage flottant pour l'image de la page infos*/
