@@ -3,7 +3,8 @@
 
     /*Passage sur 3 cols*/
     .page-index .realisations li {
-        width: calc(100%/3 - 5%);
+        flex-basis: calc(100%/3);
+        flex-grow: 3; /* Peut prendre la place de 2 à 3 éléments si disponible */
     }
 
     /* Habillage flottant pour l'image de la page infos*/

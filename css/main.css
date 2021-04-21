@@ -7,6 +7,10 @@
 /* Importation des polices Web Google */
 @import url('https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400i,700,700i,800');
 
+* {
+    box-sizing: border-box;
+}
+
 /* Couleur et polices de base du site */
 body {
     background-color: #fdfffc ;
@@ -164,16 +168,23 @@ footer ul li img:hover {
 ************************/
 
 .page-index .realisations {
+    /* FLEXBOX : https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+    display: flex; /* Indique que l'élément est un container Flexbox */
+    flex-direction: row; /* Les éléments s'affiche sur la même ligne */
+    flex-wrap: wrap; /* Les éléments peuvent s'afficher sur la ligne suivante si pas assez de place */
+    justify-content: space-between; /* L'espace libre dans la ligne est redistribué entre les éléments */
+    align-items: flex-start; /* Alignement vertical sur le haut des éléments */
+
     list-style-type: none; /* suppression des puces */
     margin: 0;
     padding: 0;
 }
 
 .page-index .realisations li {
-    display: inline-block;
-    width: 45%;
-    margin: 2.5%;
-    vertical-align: top;
+    flex-basis: 50%; /* Taille de base pour les éléments du container flex */
+    flex-grow: 2;
+    margin: 0;
+    padding: 1rem 2.5%;
 }
 
 .page-index .realisations li a {
