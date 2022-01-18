@@ -46,6 +46,9 @@ Aspect général :
   * Marge extérieure en bas de `.75em`
 * Hauteur de ligne des paragraphes `1.5`
 * Les liens du site sont rouges `#e71d36` et ne sont **pas soulignés**
+* Les images ont une largeur maximum de `100%`.
+  Cela empêche les images de sortir de leur parent, voir du navigateur.
+
 
 Le site se divise en trois parties :
 * Entête
@@ -56,14 +59,16 @@ Le site se divise en trois parties :
 L'entête se compose d'un **logo texte** et d'un **menu de navigation**
 
 * Les contenus, textes, de l'entête sont centrés horizontalement.
+* La couleur de fond de l'entête est bleu foncé `#011627`
 * L'entête à une marge intérieur en haut de `5px` et extérieure en bas de `30px`
 
 #### Logo texte
 * Lorsqu'on clique sur le logo, cela nous renvoie à la page d'accueil `index.
   html`
-* La taille du texte "Laure Dinateur" est de `1rem` et a une marge
-  extérieure en haut et en bas de `2.5rem`.
-* Le texte "Graphiste" a une marge extérieure en bas de `20px`
+* La taille du texte "Laure Dinateur" est de `1.75rem`,
+  a une hauteur de ligne de `0.8` et une marge
+  extérieure en haut et en bas de `1rem`.
+* Le texte "Graphiste" a une marge extérieure haut de `-5px`.
 
 
 #### Menu de navigation

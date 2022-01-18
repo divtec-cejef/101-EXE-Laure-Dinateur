@@ -23,7 +23,7 @@ body {
 
 /* Police des titres */
 h1, h2, h3, h4, h5, h6,
-.logo {
+.nom {
     font-family: 'Changa One', cursive;
     font-weight: 400; /* Pas oublier de préciser l'épaisseur */
 }
@@ -71,12 +71,11 @@ header .logo {
 header .nom {
     color: #2ec4b6;
     font-size: 1.75rem;
-    margin: 15px 0;
+    margin: 1rem 0;
     line-height: 0.8;
 }
 
 header .metier {
-    color: #e71d36;
     margin: -5px 0 0; /*-5px haut 0 g/d 0 bas */
 }
 
