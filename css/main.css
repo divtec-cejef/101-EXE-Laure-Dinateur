@@ -1,11 +1,98 @@
+/***************************
+ ********* POLICES *********
+ **************************/
+
+/* changa-one-regular - latin */
+@font-face {
+    font-family: 'Changa One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/changa-one-v13-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../fonts/changa-one-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/changa-one-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/changa-one-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/changa-one-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/changa-one-v13-latin-regular.svg#ChangaOne') format('svg'); /* Legacy iOS */
+}
+
+/* open-sans-regular - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v27-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../fonts/open-sans-v27-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/open-sans-v27-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/open-sans-v27-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/open-sans-v27-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/open-sans-v27-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+/* open-sans-700 - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/open-sans-v27-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../fonts/open-sans-v27-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/open-sans-v27-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/open-sans-v27-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/open-sans-v27-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/open-sans-v27-latin-700.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+/* open-sans-800 - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/open-sans-v27-latin-800.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../fonts/open-sans-v27-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/open-sans-v27-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/open-sans-v27-latin-800.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/open-sans-v27-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/open-sans-v27-latin-800.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+/* open-sans-italic - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v27-latin-italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../fonts/open-sans-v27-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/open-sans-v27-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/open-sans-v27-latin-italic.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/open-sans-v27-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/open-sans-v27-latin-italic.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+/* open-sans-700italic - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/open-sans-v27-latin-700italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../fonts/open-sans-v27-latin-700italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/open-sans-v27-latin-700italic.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/open-sans-v27-latin-700italic.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/open-sans-v27-latin-700italic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/open-sans-v27-latin-700italic.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+
+
 /************************
 ******** GENERAL ********
 ************************/
 
 /* Palette des couleurs :  https://coolors.co/e7e9eb-fdfffc-2ec4b6-e71d36-011627 */
-
-/* Importation des polices Web Google */
-@import url('https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400i,700,700i,800');
 
 * {
     box-sizing: border-box;
@@ -22,8 +109,7 @@ body {
 }
 
 /* Police des titres */
-h1, h2, h3, h4, h5, h6,
-.nom {
+h1, h2, h3, h4, h5, h6, .nom {
     font-family: 'Changa One', cursive;
     font-weight: 400; /* Pas oublier de préciser l'épaisseur */
 }
@@ -58,17 +144,19 @@ img {
 ***********************/
 
 header {
+    text-align: center;
     background-color: #011627;
     padding: 5px 0 0 0;
     margin: 0 0 30px 0;
 }
 
 header .logo {
-    text-align: center;
     margin: 0;
 }
 
 header .nom {
+    font-family: 'Changa One', cursive;
+    font-weight: 400;
     color: #2ec4b6;
     font-size: 1.75rem;
     margin: 1rem 0;
@@ -83,7 +171,7 @@ header .metier {
 ******** NAV MENU ******
 ************************/
 header nav {
-    text-align: center;
+
     padding: 10px 0;
     margin: 20px 0 0;
 }
