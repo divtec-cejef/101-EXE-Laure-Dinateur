@@ -69,7 +69,8 @@ L'entête se compose d'un **logo texte** et d'un **menu de navigation**
   a une hauteur de ligne de `0.8`,
   utilise la police `'Changa One'` avec épaisseur de `400` et a une marge
   extérieure en haut et en bas de `1rem`.
-* Le texte "Graphiste" a une marge extérieure haut de `-5px`.
+* Le texte "Graphiste" a une marge extérieure haut de `-5px`, 
+  dans le but de le rapprocher du texte "Laure Dinateur".
 
 
 #### Menu de navigation
