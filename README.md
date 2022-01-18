@@ -77,7 +77,7 @@ Les contenus, textes, de l'entête sont centrés horizontalement.
 * Les éléments de la liste du menu `<li>` s'affichent **sans puces, sans marge
   intérieure et en ligne** `display:inline-block;`
 * Pour faciliter la sélection des liens sur mobile, les liens sont espacés de
-  `30px.
+  `30px`.
 * La couleur du texte des liens devient bleue `#2ec4b6` lorsqu'ils sont
   survolés `:hover`.
 
