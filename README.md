@@ -55,7 +55,8 @@ Le site se divise en trois parties :
 ### Entête `<header>`
 L'entête se compose d'un **logo texte** et d'un **menu de navigation**
 
-Les contenus, textes, de l'entête sont centrés horizontalement.
+* Les contenus, textes, de l'entête sont centrés horizontalement.
+* L'entête à une marge intérieur en haut de `5px` et extérieure en bas de `30px`
 
 #### Logo texte
 * Lorsqu'on clique sur le logo, cela nous renvoie à la page d'accueil `index.
