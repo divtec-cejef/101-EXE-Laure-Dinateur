@@ -61,7 +61,7 @@ L'entête se compose d'un **logo texte** et d'un **menu de navigation**
 #### Logo texte
 * Lorsqu'on clique sur le logo, cela nous renvoie à la page d'accueil `index.
   html`
-* La taille du texte "Laure Dinateur" est de `1.75rem` et a une marge 
+* La taille du texte "Laure Dinateur" est de `1rem` et a une marge 
   extérieure en haut et en bas de `2.5rem`.
 * Le texte "Graphiste" a une marge extérieure en bas de `20px`
 
