@@ -67,6 +67,7 @@ L'entête se compose d'un **logo texte** et d'un **menu de navigation**
   html`
 * La taille du texte "Laure Dinateur" est de `1.75rem`,
   a une hauteur de ligne de `0.8`,
+  une couleur bleu clair `#2ec4b6`,
   utilise la police `'Changa One'` avec épaisseur de `400` et a une marge
   extérieure en haut et en bas de `1rem`.
 * Le texte "Graphiste" a une marge extérieure haut de `-5px`, 
