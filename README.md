@@ -11,9 +11,12 @@
   * `contact.html` Paragraphes d'informations générales et liste des
     différents moyens de contact.
 * Le code CSS du site doit être contenu dans une **feuille de style externe** `main.
-  css`. Ce fichier n'existe pas, vous devrez le créer et le lier à vos pages HTML.
+  css`.
+* Télécharger et placer les polices du site dans un dossier `fonts/`.
+  * Pour récupérer les polices utiliser ce site: https://google-webfonts-helper.herokuapp.com/fonts
 * Le code HTML et CSS doit **respecter les standards du W3C** et **doit être validé**
   sur le site https://validator.w3.org/
+* Autre outil pour vérifier la qualité de votre code, l'extension pour navigateur **Wave**: https://wave.webaim.org/extension/ 
 
 ## Documents utiles
 
@@ -56,29 +59,38 @@ Le site se divise en trois parties :
 L'entête se compose d'un **logo texte** et d'un **menu de navigation**
 
 * Les contenus, textes, de l'entête sont centrés horizontalement.
-* L'entête à une marge intérieur en haut de `5px` et extérieure en bas de `30px`
+* Le fond de l'entête est noir.
+* Marges de l'entête
+  * intérieur en haut de `5px`
+  * extérieure en bas de `30px`
 
 #### Logo texte
 * Lorsqu'on clique sur le logo, cela nous renvoie à la page d'accueil `index.
   html`
-* La taille du texte "Laure Dinateur" est de `1rem` et a une marge 
-  extérieure en haut et en bas de `2.5rem`.
-* Le texte "Graphiste" a une marge extérieure en bas de `20px`
-
+* La police à utiliser est `Changa One`, la taille du texte pour le nom et prénom
+  est de `1.75rem` avec une hauteur de ligne de `0.8`
+  et a une marge extérieure haut et bas de `1rem`.
+* Le texte "Graphiste" a une marge extérieure supérieure de `-5px` afin de la rapprocher du nom et prénom.
 
 #### Menu de navigation
 
 * Le menu de navigation `<nav>` contient une **liste `<ul>` de trois liens**.
   Mais sur mobile, seuls deux sont visibles,
   car il n'y a pas assez de place en largeur sur les petits terminaux.
+* La `<nav>` a une marge :
+  * intérieure haut et pas de `10px`
+  * extérieure haut de `20px`
 * Liste des liens du menu :
   * **Accueil** `index.html` - caché en CSS `display:none;`
   * **Qui suis-je ?** `informations.html`
   * **Me contacter** `contact.html`
+* La liste `<ul>` n'a pas de marge intérieure et une mage extérieure de `10px` à gauche et à droite.
 * Les éléments de la liste du menu `<li>` s'affichent **sans puces, sans marge
-  intérieure et en ligne** `display:inline-block;`
-* Pour faciliter la sélection des liens sur mobile, les liens sont espacés de
-  `30px`.
+  intérieure et en l'un à côté de l'autre (en ligne)** `display:inline-block;`
+* Pour faciliter la sélection des liens `<a>` sur mobile
+  * sont affichés en gras (800)
+  * sont espacés de `30px` 
+  * ont une marge intérieure de `15px` haut/bas et `10px` gauche/droite
 * La couleur du texte des liens devient bleue `#2ec4b6` lorsqu'ils sont
   survolés `:hover`.
 
@@ -90,9 +102,11 @@ titres, sections, liens, éléments importants, figures avec légende)
 
 ### Pied de page `<footer>`
 Contiens la **liste des réseaux sociaux** de Laure Dinateur et le **copyright**.
+* Le pied de page `<footer>` a une marge intérieur haut de `50px`
 * Les contenus du pied de page sont centrés horizontalement.
 * La liste des réseaux sociaux est un élément de navigation `<nav>`, tout
-  comme le menu de navigation de l'entête.
+  comme le menu de navigation de l'entête, et à le même style (pas de puces, pas de marges).
+* Les éléments de la liste s'affichent en ligne `display:inline-block;`.
 * Les images ont une largeur de `50px` sont espacées de `30px`.
 * Un filtre gris CSS est appliqué aux images du pied de page `filter: grayscale
   (1);`
@@ -112,8 +126,6 @@ simple du site, elle se compose de :
 Vous devez créer cette page en vous basant sur les instructions de la
 _Structure générale du site_ et des différents contenus : textes, palettes,
 maquettes, images, ....
-
-
 
 ### Maquette
 ![Maquette de la page Qui suis-je](_sources/maquettes/presentation.png)
